@@ -353,12 +353,12 @@ window.onload = async (e) => {
     section.appendChild(button);
   }
 
-  // await showText("hi baba!", 2000);
-  // await showText("panis, ganto na naman", 2000);
-  // await showText("pero di", 2000);
-  // await showText("sabi mo kasi, di ako masyadong nagshashare", 2500);
-  // await showText("kaya...", 2000);
-  // await showText("I wanted to share you my perspective this time", 3000);
+  await showText("hi baba!", 2000);
+  await showText("panis, ganto na naman", 2000);
+  await showText("pero di", 2000);
+  await showText("sabi mo kasi, di ako masyadong nagshashare", 2500);
+  await showText("kaya...", 2000);
+  await showText("I wanted to share you my perspective this time", 3000);
 
   showButton();
 };
